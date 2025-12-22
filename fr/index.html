@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> DZtravelguide </title>
+  <meta name="author" content="Nabti Messipsa">
+  <meta name="description" content="Découvrez l'Algérie avec DZtravelguide : votre guide complet pour explorer les sites historiques, les lieux antiques, les paysages naturels, et la cuisine locale à travers toutes les wilayas algériennes.">
+  <meta name="keywords" content="Algérie, tourisme en Algérie, sites historiques en Algérie, lieux antiques, sites archéologiques, patrimoine algérien, nature en Algérie, gastronomie, culture, UNESCO, conseils voyage, DZtravelguide, explore Algeria, visit Algeria, Algeria tourism, tourist guide Algeria, best places in Algeria, unesco Algeria">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="DZtravelguide - Votre guide complet pour découvrir l'Algérie">
+  <meta property="og:description" content="Explorez l'Algérie avec nous : villes historiques, sites antiques, paysages variés, culture locale et plages méditerranéennes.">
+  <meta property="og:image" content="/img/index-banner.png">
+  <meta property="og:url" content="https://www.dztravelguide.netlify.app">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <link rel="icon" href="/favicon.ico">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Découvrez l'Algérie avec DZtravelguide">
+  <meta name="twitter:description" content="Bienvenue sur votre guide complet pour explorer l'Algérie : villes historiques, sites antiques, culture et paysages variés.">
+  <meta name="twitter:image" content="/img/index-banner.png">
+  <link rel="alternate" hreflang="ar" href="/index.html">   <!-- العربية -->
+<link rel="alternate" hreflang="fr" href="/fr/index.html"> <!-- الفرنسية -->
+<link rel="alternate" hreflang="en" href="/en/index.html"> <!-- الإنجليزية -->
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-NC782VQZ');</script>
+  <!-- End Google Tag Manager -->
+  <style>
+    :root {
+      --green: #006e3d;
+      --red: #d0141f;
+      --white: #ffffff;
+      --gray: #f4f4f4;
+      --dark: #222;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Cairo', sans-serif;
+    }
+    body {
+      background-color: var(--gray);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--green);
+      color: var(--white);
+      padding: 1rem 2rem;
+      text-align: center;
+      position: relative;
+    }
+    header h2 {
+      font-size: 1.8rem;
+    }
+    #menu-toggle {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 2rem;
+      cursor: pointer;
+      display: none;
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+    }
+    nav {
+      background-color: var(--white);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      border-bottom: 2px solid var(--green);
+      transition: all 0.3s ease;
+    }
+    nav a {
+      color: var(--green);
+      text-decoration: none;
+      padding: 1rem;
+      display: block;
+      transition: background 0.3s;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: var(--green);
+      color: var(--white);
+    }
+    .hero {
+      background: linear-gradient(to left, rgba(0, 110, 61, 0.85), rgba(208, 20, 31, 0.85)),
+                  url('https://upload.wikimedia.org/wikipedia/commons/8/85/Algeria_Landscape.jpg') center/cover;
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: auto;
+    }
+    section {
+      padding: 2rem;
+      background-color: var(--white);
+      margin: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: var(--green);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    @media (max-width: 768px) {
+      #menu-toggle {
+        display: block;
+      }
+      nav {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+      }
+      nav.show {
+        display: flex;
+      }
+      nav a {
+        border-top: 1px solid var(--green);
+        width: 100%;
+        text-align: center;
+      }
+    }
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+.card {
+  background-color: var(--white);
+  border: 2px solid var(--green);
+  color: var(--green);
+  text-align: center;
+  padding: 1.5rem 1rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+.card:hover {
+  background-color: var(--green);
+  color: white;
+  transform: translateY(-5px);
+}
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.image-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.image-gallery img:hover {
+  transform: scale(1.05);
+}
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px; /* conservé la même position */
+  z-index: 999;
+  font-size: 20px;
+  background-color: #006e3d;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, background-color 0.3s;
+}
+#topBtn:hover {
+  background-color: #0b944f;
+  transform: scale(1.05);
+}
+img{
+image-orientation: from-image;
+}
+
+.lang-btn {
+  position: fixed;
+  top: 20px;       /* المسافة من الأعلى */
+  right: 20px;     /* المسافة من اليمين */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #333;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  text-decoration: none;
+  transition: transform 0.2s, background-color 0.2s;
+  z-index: 1000;
+}
+
+.lang-btn:hover {
+  transform: scale(1.1);
+  background-color: #0077cc;
+  color: #fff;
+}
+</style>
+
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC782VQZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  <header>
+    <h2>DZtravelguide</h2>
+    <button id="menu-toggle" aria-label="Ouvrir le menu">â˜°</button>
+    <a href="#" id="lang-switch" class="lang-btn" title="Change Language">AR</a>
+  </header>
+  <nav id="main-nav">
+    <a href="/index.html">Accueil</a>
+    <a href="/wilaya.html">Explorer les wilayas</a>
+    <a href="/places.html">Meilleurs sites</a>
+    <a href="/activities.html">Activités touristiques</a>
+    <a href="/nature.html">Nature et paysages</a>
+    <a href="/food.html">Gastronomie</a>
+    <a href="/culture.html">Culture</a>
+    <a href="/unesco.html">Sites UNESCO</a>
+    <a href="/tips.html">Conseils de voyage</a>
+    <a href="/about.html">À propos</a>
+  </nav>
+  <div class="hero">
+    <h1>Bienvenue en Algérie</h1>
+    <p>Découvrez les merveilles de l'Algérie : des plages méditerranéennes aux montagnes majestueuses, en passant par les déserts spectaculaires et la richesse culturelle, il y en a pour tous les goûts !</p>
+  </div>
+  <section id="about-algeria" style="padding: 2rem; background-color: #fdfdfd; border-radius: 15px; margin: 2rem 0;">
+  <h2 style="text-align: center; color: #006e54; margin-bottom: 1.5rem;">À propos de l'Algérie</h2>
+  <p style="line-height: 2; font-size: 1.1rem; text-align: left;">
+    L'Algérie, ou la République algérienne démocratique et populaire, est un grand pays en Afrique du Nord, situé entre la mer Méditerranée et le désert du Sahara. Ses paysages vont des montagnes aux vastes plaines et aux grandes étendues désertiques. Des régions côtières aux oasis sahariennes, des villes anciennes aux métropoles modernes, chaque lieu est unique et fascinant.<br><br>
+    L'Algérie possède un riche patrimoine historique, comprenant des vestiges romains, byzantins et arabes, ainsi qu'une diversité culturelle impressionnante. Sa population est un mélange de peuples et d'ethnies, avec des langues variées telles que l'arabe, le berbère et le français. La gastronomie algérienne est célèbre pour ses saveurs authentiques et ses plats traditionnels.<br><br>
+    Les plages de la Méditerranée sont splendides, et l'intérieur du pays offre des paysages désertiques spectaculaires. Les montagnes du Nord sont idéales pour la randonnée et les activités de plein air. Des sites emblématiques comme le Grand Sud, le Hoggar ou le Tassili offrent des panoramas inoubliables. La culture, l'histoire et la diversité de l'Algérie en font une destination exceptionnelle.
+  </p>
+  <!-- Galerie d'images -->
+  <div class="algeria-gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-top: 2rem;">
+   <div style="aspect-ratio: 1/1; overflow: hidden; border-radius: 8px;">
+    <img src="/img/algeria1.jpg" alt="Vue panoramique du désert et des montagnes algériennes" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+  <div style="aspect-ratio: 1/1; overflow: hidden; border-radius: 8px;">
+    <img src="/img/algeria2.jpg" alt="Photo d'une ville dans le Sahara avec ses dunes et le soleil couchant" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+  <div style="aspect-ratio: 1/1; overflow: hidden; border-radius: 8px;">
+    <img src="/img/algeria3.jpg" alt="Vue aérienne de la côte méditerranéenne" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+  <div style="aspect-ratio: 1/1; overflow: hidden; border-radius: 8px;">
+    <img src="/img/algeria4.jpg" alt="Paysage des montagnes du Kabylie" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+  <div style="aspect-ratio: 1/1; overflow: hidden; border-radius: 8px;">
+    <img src="/img/algeria5.jpg" alt="Mosquée Sidi Krouz surplombant une ville et des montagnes" style="width: 100%; height: 150%; object-fit: cover;">
+  </div>
+  <div style="aspect-ratio: 1/1; overflow: hidden; border-radius: 8px;">
+    <img src="/img/algeria6.jpg" alt="Grande mosquée d'Alger avec le panorama de la ville" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+  </div>
+</section>
+  <section>
+    <h2>À propos du site</h2>
+    <p>DZtravelguide est votre guide complet pour découvrir l'Algérie, avec des informations sur la géographie, les sites touristiques, les villes, les cultures et les spécialités locales. Il est conçu pour vous faciliter la planification de vos voyages et découvrir toutes les richesses du pays.</p>
+  </section>
+  <section>
+    <h2>Que trouverez-vous ici ?</h2>
+    <ul>
+      <li>Plus de 100 destinations touristiques en Algérie</li>
+      <li>Présentation complète des wilayas et de leurs atouts</li>
+      <li>Informations détaillées sur les sites et la nature</li>
+      <li>Guides complets pour la gastronomie algérienne</li>
+      <li>Informations sur les monuments et sites UNESCO</li>
+    </ul>
+  </section>
+<section>
+  <h2 style="text-align:center; margin-bottom:1rem;">Explorez nos sections</h2>
+  <div class="cards-container">
+    <a class="card" href="index.html">🏠 Accueil</a>
+    <a class="card" href="wilaya.html">📍 Explorer les wilayas</a>
+    <a class="card" href="places.html">📙 Meilleurs sites</a>
+    <a class="card" href="activities.html">🎯 Activités touristiques</a>
+    <a class="card" href="nature.html">🌿 Nature et paysages</a>
+    <a class="card" href="food.html">🍲 Gastronomie</a>
+    <a class="card" href="culture.html">🎭 Culture</a>
+    <a class="card" href="unesco.html">🗺 Sites UNESCO</a>
+    <a class="card" href="tips.html">🧳 Conseils de voyage</a>
+    <a class="card" href="about.html">ℹ️ À propos</a>
+  </div>
+</section>
+<button onclick="scrollToTop()" id="topBtn" title="Retour en haut">↑</button>
+  <footer>
+    &copy; 2025 - DZtravelguide | Tous droits réservés
+  </footer>
+  <script>
+    const toggleBtn = document.getElementById("menu-toggle");
+    const nav = document.getElementById("main-nav");
+    toggleBtn.addEventListener("click", () => {
+      nav.classList.toggle("show");
+    });
+  </script>
+<script>
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+<script>
+  const langBtn = document.getElementById('lang-switch');
+  const currentURL = window.location.pathname;
+
+  if(currentURL.includes("/fr/")) {
+      langBtn.textContent = "FR";
+      langBtn.href = "/index.html";       // العودة للعربية
+  } else if(currentURL.includes("/en/")) {
+      langBtn.textContent = "EN";
+      langBtn.href = "/fr/index.html";    // الانتقال للفرنسية
+  } else {
+      // العربية
+      langBtn.textContent = "AR";
+      langBtn.href = "/en/index.html";    // الانتقال للإنجليزية
+  }
+</script>
+</body>
+</html>
