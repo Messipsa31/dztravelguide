@@ -11,7 +11,7 @@
 <meta property="og:title" content="عن الموقع - DZtravelguide">
 <meta property="og:description" content="تعرف على هدف DZtravelguide ورسالة مؤسسه في التعريف بجمال الجزائر الطبيعي والثقافي. اكتشف من يقف وراء هذا الدليل السياحي الجزائري الشامل.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dztravelguide.com/about.html">
+<meta property="og:url" content="https://dztravelguide.netlify.app/about.html">
 <meta property="og:image" content="img/about-og.png">
 <meta property="og:locale" content="ar_DZ">
 <link rel="icon" href="favicon.ico">
@@ -130,6 +130,30 @@ image-orientation: from-image;
 }
 
 
+.lang-btn {
+  position: fixed;
+  top: 20px;       /* المسافة من الأعلى */
+  right: 20px;     /* المسافة من اليمين */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #333;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  text-decoration: none;
+  transition: transform 0.2s, background-color 0.2s;
+  z-index: 1000;
+}
+
+.lang-btn:hover {
+  transform: scale(1.1);
+  background-color: #0077cc;
+  color: #fff;
+}
   </style>
 
 
@@ -143,6 +167,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <h2>DZtravelguide</h2>
       <p >عن الموقع</p>
   <button id="menu-toggle">☰</button>
+  <a href="#" id="lang-switch" class="lang-btn" title="Change Language">AR</a>
+  
 </header>
 
 <nav id="main-nav">
@@ -226,6 +252,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 </script>
+<script>
+  const langBtn = document.getElementById('lang-switch');
+  const currentURL = window.location.pathname;
 
+  if(currentURL.includes("/fr/")) {
+      langBtn.textContent = "FR";
+      langBtn.href = "/about.html";       // العودة للعربية
+  } else if(currentURL.includes("/en/")) {
+      langBtn.textContent = "EN";
+      langBtn.href = "/fr/about.html";    // الانتقال للفرنسية
+  } else {
+      // العربية
+      langBtn.textContent = "AR";
+      langBtn.href = "/en/about.html";    // الانتقال للإنجليزية
+  }
+</script>
 </body>
 </html>

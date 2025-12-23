@@ -1,66 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset 
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
     <loc>https://dztravelguide.netlify.app/index.html</loc>
-    <lastmod>2025-07-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dztravelguide.netlify.app/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dztravelguide.netlify.app/fr/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dztravelguide.netlify.app/en/index.html"/>
+  </url>
+
+
+  <url>
+    <loc>https://dztravelguide.netlify.app/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dztravelguide.netlify.app/wilaya.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dztravelguide.netlify.app/fr/wilaya.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dztravelguide.netlify.app/en/wilaya.html"/>
+  </url>
+
+<url>
+    <loc>https://dztravelguide.netlify.app/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dztravelguide.netlify.app/places.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dztravelguide.netlify.app/fr/places.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dztravelguide.netlify.app/en/places.html"/>
+  </url>
+
+ <url>
+    <loc>https://dztravelguide.netlify.app/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dztravelguide.netlify.app/activities.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dztravelguide.netlify.app/fr/activities.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dztravelguide.netlify.app/en/activities.html"/>
+  </url>
+
+
+   <url>
+    <loc>https://dztravelguide.netlify.app/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dztravelguide.netlify.app/nature.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dztravelguide.netlify.app/fr/nature.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dztravelguide.netlify.app/en/nature.html"/>
   </url>
 
   <url>
-    <loc>https://dztravelguide.netlify.app/wilaya.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://dztravelguide.netlify.app/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dztravelguide.netlify.app/food.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dztravelguide.netlify.app/fr/food.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dztravelguide.netlify.app/en/food.html"/>
   </url>
 
-  <url>
-    <loc>https://dztravelguide.netlify.app/places.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+
+ <url>
+    <loc>https://dztravelguide.netlify.app/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dztravelguide.netlify.app/culture.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dztravelguide.netlify.app/fr/culture.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dztravelguide.netlify.app/en/culture.html"/>
   </url>
 
-  <url>
-    <loc>https://dztravelguide.netlify.app/activities.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
 
   <url>
-    <loc>https://dztravelguide.netlify.app/nature.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://dztravelguide.netlify.app/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dztravelguide.netlify.app/unesco.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dztravelguide.netlify.app/fr/unesco.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dztravelguide.netlify.app/en/unesco.html"/>
   </url>
 
-  <url>
-    <loc>https://dztravelguide.netlify.app/food.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+   <url>
+    <loc>https://dztravelguide.netlify.app/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dztravelguide.netlify.app/tips.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dztravelguide.netlify.app/fr/tips.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dztravelguide.netlify.app/en/tips.html"/>
   </url>
 
-  <url>
-    <loc>https://dztravelguide.netlify.app/culture.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+   <url>
+    <loc>https://dztravelguide.netlify.app/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dztravelguide.netlify.app/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dztravelguide.netlify.app/fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dztravelguide.netlify.app/en/about.html"/>
   </url>
 
-  <url>
-    <loc>https://dztravelguide.netlify.app/unesco.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://dztravelguide.netlify.app/tips.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://dztravelguide.netlify.app/about.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
+  
 
 </urlset>
