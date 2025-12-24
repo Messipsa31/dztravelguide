@@ -20,6 +20,9 @@
 <meta name="twitter:title" content="الطبيعة والمناخ في الجزائر - DZtravelguide">
 <meta name="twitter:description" content="اكتشف تنوع الطبيعة الجزائرية من الشمال الأخضر إلى الجنوب الصحراوي.">
 <meta name="twitter:image" content="img/meta-nature.jpg">
+<link rel="alternate" hreflang="ar" href="/nature.html">   <!-- العربية -->
+<link rel="alternate" hreflang="fr" href="/fr/nature.html"> <!-- الفرنسية -->
+<link rel="alternate" hreflang="en" href="/en/nature.html"> <!-- الإنجليزية -->
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -206,6 +209,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   transform-origin: center;
 }
 
+.lang-btn {
+  position: fixed;
+  top: 20px;       /* المسافة من الأعلى */
+  right: 20px;     /* المسافة من اليمين */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #333;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  text-decoration: none;
+  transition: transform 0.2s, background-color 0.2s;
+  z-index: 1000;
+}
+
+.lang-btn:hover {
+  transform: scale(1.1);
+  background-color: #0077cc;
+  color: #fff;
+}
   </style>
 
 
@@ -220,6 +247,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
        <p>استكشف سحر الطبيعة وتنوع المناخ في الجزائر</p>
  
     <button id="menu-toggle" aria-label="فتح القائمة">☰</button>
+    <a href="#" id="lang-switch" class="lang-btn" title="Change Language">AR</a>
+  
   </header>
 
   <nav id="main-nav">
@@ -472,5 +501,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     }
   </script>
 
+<script>
+  const langBtn = document.getElementById('lang-switch');
+  const currentURL = window.location.pathname;
+
+  if(currentURL.includes("/fr/")) {
+      langBtn.textContent = "FR";
+      langBtn.href = "/nature.html";       // العودة للعربية
+  } else if(currentURL.includes("/en/")) {
+      langBtn.textContent = "EN";
+      langBtn.href = "/fr/nature.html";    // الانتقال للفرنسية
+  } else {
+      // العربية
+      langBtn.textContent = "AR";
+      langBtn.href = "/en/nature.html";    // الانتقال للإنجليزية
+  }
+</script>
 </body>
 </html>

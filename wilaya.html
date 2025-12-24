@@ -30,6 +30,9 @@
 <meta name="twitter:title" content="الولايات الجزائرية - DZtravelguide">
 <meta name="twitter:description" content="دليلك لاكتشاف كل ولاية جزائرية ومعالمها السياحية الفريدة.">
 <meta name="twitter:image" content="img/wilaya-banner.png">
+<link rel="alternate" hreflang="ar" href="/wilaya.html">   <!-- العربية -->
+<link rel="alternate" hreflang="fr" href="/fr/wilaya.html"> <!-- الفرنسية -->
+<link rel="alternate" hreflang="en" href="/en/wilaya.html"> <!-- الإنجليزية -->
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -227,6 +230,30 @@ image-orientation: from-image;
 }
 
 
+.lang-btn {
+  position: fixed;
+  top: 20px;       /* المسافة من الأعلى */
+  right: 20px;     /* المسافة من اليمين */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #333;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  text-decoration: none;
+  transition: transform 0.2s, background-color 0.2s;
+  z-index: 1000;
+}
+
+.lang-btn:hover {
+  transform: scale(1.1);
+  background-color: #0077cc;
+  color: #fff;
+}
 
   </style>
 
@@ -242,6 +269,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h2>DZtravelguide</h2>
        <p>دليل شامل لجميع ولايات الجزائر</p>
     <button id="menu-toggle" aria-label="فتح القائمة">☰</button>
+    <a href="#" id="lang-switch" class="lang-btn" title="Change Language">AR</a>
+  
   </header>
 
 
@@ -1259,6 +1288,22 @@ style="width: 100%; padding: 10px; margin: 20px 0; border-radius: 8px; border: 1
     });
   </script>
 
+<script>
+  const langBtn = document.getElementById('lang-switch');
+  const currentURL = window.location.pathname;
+
+  if(currentURL.includes("/fr/")) {
+      langBtn.textContent = "FR";
+      langBtn.href = "/wilaya.html";       // العودة للعربية
+  } else if(currentURL.includes("/en/")) {
+      langBtn.textContent = "EN";
+      langBtn.href = "/fr/wilaya.html";    // الانتقال للفرنسية
+  } else {
+      // العربية
+      langBtn.textContent = "AR";
+      langBtn.href = "/en/wilaya.html";    // الانتقال للإنجليزية
+  }
+</script>
 
 </body>
 </html>

@@ -20,6 +20,9 @@
 <meta name="twitter:title" content="أفضل الأماكن السياحية في الجزائر - DZtravelguide">
 <meta name="twitter:description" content="دليلك السياحي لاكتشاف أجمل الأماكن السياحية في الجزائر موزعة حسب الطبيعة، البحر، الجبال، الصحراء والمواقع التاريخية.">
 <meta name="twitter:image" content="https://dztravelguide.netlify.app/img/places-cover.jpg"> <!-- غيّر الرابط للصورة الحقيقية -->
+<link rel="alternate" hreflang="ar" href="/places.html">   <!-- العربية -->
+<link rel="alternate" hreflang="fr" href="/fr/places.html"> <!-- الفرنسية -->
+<link rel="alternate" hreflang="en" href="/en/places.html"> <!-- الإنجليزية -->
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -203,6 +206,30 @@ image-orientation: from-image;
 }
 
 
+.lang-btn {
+  position: fixed;
+  top: 20px;       /* المسافة من الأعلى */
+  right: 20px;     /* المسافة من اليمين */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #333;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  text-decoration: none;
+  transition: transform 0.2s, background-color 0.2s;
+  z-index: 1000;
+}
+
+.lang-btn:hover {
+  transform: scale(1.1);
+  background-color: #0077cc;
+  color: #fff;
+}
   </style>
 
 
@@ -216,6 +243,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h2>DZtravelguide</h2>
     <p> دليلك إلى أروع المعالم السياحية في الجزائر. </p>
     <button id="menu-toggle" aria-label="فتح القائمة">☰</button>
+    <a href="#" id="lang-switch" class="lang-btn" title="Change Language">AR</a>
+  
   </header>
 
   <nav id="main-nav">
@@ -357,5 +386,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     }
   </script>
 
+<script>
+  const langBtn = document.getElementById('lang-switch');
+  const currentURL = window.location.pathname;
+
+  if(currentURL.includes("/fr/")) {
+      langBtn.textContent = "FR";
+      langBtn.href = "/places.html";       // العودة للعربية
+  } else if(currentURL.includes("/en/")) {
+      langBtn.textContent = "EN";
+      langBtn.href = "/fr/places.html";    // الانتقال للفرنسية
+  } else {
+      // العربية
+      langBtn.textContent = "AR";
+      langBtn.href = "/en/places.html";    // الانتقال للإنجليزية
+  }
+</script>
 </body>
 </html>
