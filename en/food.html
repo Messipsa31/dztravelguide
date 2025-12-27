@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Traditional Algerian Cuisine - DZtravelguide</title>
+
+  <meta name="author" content="Nabti Messipsa">
+  <meta name="description" content="Discover traditional Algerian cuisine through its iconic dishes such as couscous, chakhchoukha and rechta, delicious pastries like makroud and baklava, and authentic drinks such as Saharan tea and rouzata. Explore the rich flavors and culinary diversity of every region in Algeria.">
+
+  <meta name="keywords" content="Algerian cuisine, traditional Algerian food, Algerian dishes, Algerian gastronomy, couscous, chakhchoukha, rechta, makroud, baklava, ghribia, Algerian pastries, Saharan tea, rouzata, lben, Algerian food culture, Maghreb cuisine, famous Algerian dishes, traditional desserts, Algerian drinks">
+
+  <meta name="robots" content="index,follow">
+
+  <meta property="og:title" content="Traditional Algerian Cuisine - DZtravelguide">
+  <meta property="og:description" content="Discover the authentic flavors of Algerian cuisine through traditional dishes, sweets and iconic drinks such as couscous and Saharan tea.">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="https://www.dztravelguide.netlify.app/en/food.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+
+  <link rel="icon" href="/favicon.ico">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Algerian Cuisine - DZtravelguide">
+  <meta name="twitter:description" content="A delicious journey into traditional Algerian cuisine and its regional specialties.">
+  <meta name="twitter:image" content="/img/meta-food.jpg">
+
+  <link rel="alternate" hreflang="ar" href="/food.html">
+  <link rel="alternate" hreflang="fr" href="/fr/food.html">
+  <link rel="alternate" hreflang="en" href="/en/food.html">
+</head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NC782VQZ');</script>
+<!-- End Google Tag Manager -->
+  <style>
+    :root {
+      --green: #006e3d;
+      --red: #d0141f;
+      --white: #ffffff;
+      --gray: #f4f4f4;
+      --dark: #222;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Cairo', sans-serif;
+    }
+
+    body {
+      background-color: var(--gray);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--green);
+      color: var(--white);
+      padding: 1rem 2rem;
+      text-align: center;
+      position: relative;
+    }
+
+    header h2 {
+      font-size: 1.8rem;
+    }
+
+    header h2 {
+  font-size: 1.8rem;
+  z-index: 2;
+  position: relative;
+  color: white;
+}
+
+
+    #menu-toggle {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 2rem;
+      cursor: pointer;
+      display: none;
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+    }
+
+    nav {
+      background-color: var(--white);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      border-bottom: 2px solid var(--green);
+    }
+
+    nav a {
+      color: var(--green);
+      text-decoration: none;
+      padding: 1rem;
+      display: block;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background-color: var(--green);
+      color: var(--white);
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    section {
+      background-color: white;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    h2, h3 {
+      color: var(--green);
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      margin-top: 1rem;
+      padding-left: 1.5rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    img {
+      border-radius: 10px;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .image-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .image-grid img {
+      max-width: 300px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: var(--green);
+      color: white;
+      padding: 1rem;
+    }
+
+    #topBtn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+      font-size: 20px;
+      background-color: #006e3d;
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    @media (max-width: 768px) {
+      #menu-toggle {
+        display: block;
+      }
+
+      nav {
+        display: none;
+        flex-direction: column;
+      }
+
+      nav.show {
+        display: flex;
+      }
+
+      nav a {
+        border-top: 1px solid var(--green);
+        width: 100%;
+        text-align: center;
+      }
+
+      .image-grid {
+        justify-content: center;
+      }
+    }
+
+.rotate-90 {
+  transform: rotate(90deg);
+  transform-origin: center;
+}
+
+.lang-btn {
+  position: fixed;
+  top: 20px;       /* المسافة من الأعلى */
+  right: 20px;     /* المسافة من اليمين */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #333;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  text-decoration: none;
+  transition: transform 0.2s, background-color 0.2s;
+  z-index: 1000;
+}
+
+.lang-btn:hover {
+  transform: scale(1.1);
+  background-color: #0077cc;
+  color: #fff;
+}
+  </style>
+
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC782VQZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+ <header>
+    <h2>DZtravelguide</h2>
+    <p>Discover the authentic flavors of Algerian cuisine</p>
+    <button id="menu-toggle">☰</button>
+    <a href="#" id="lang-switch" class="lang-btn" title="Change Language">AR</a>
+</header>
+
+<nav id="main-nav">
+    <a href="/en/index.html">Home</a>
+    <a href="/en/wilaya.html">Wilayas</a>
+    <a href="/en/places.html">Top Cities</a>
+    <a href="/en/activities.html">Outdoor Activities</a>
+    <a href="/en/nature.html">Nature & Landscapes</a>
+    <a href="/en/food.html">Algerian Cuisine</a>
+    <a href="/en/culture.html">Culture</a>
+    <a href="/en/unesco.html">UNESCO Sites</a>
+    <a href="/en/tips.html">Travel Tips</a>
+    <a href="/en/about.html">About Us</a>
+  </nav>
+
+<main>
+    <h2>Algerian Cuisine</h2>
+
+    <section style="padding: 30px; background-color: #f9f9f9; border-radius: 12px; margin-top: 20px;">
+        <h2 style="color: #006c4f; font-size: 28px; margin-bottom: 20px;">Traditional Algerian Dishes</h2>
+        <p style="line-height: 1.9; font-size: 18px;">
+            Algerian cuisine is one of the richest in the Arab world and North Africa, known for its variety of flavors and unique specialties that distinguish each region. It skillfully blends Berber, Arab, Turkish, and Andalusian influences to create an exceptional culinary experience.
+        </p>
+
+        <p style="line-height: 1.9; font-size: 18px;">
+            Some of the most famous dishes include:
+            <strong>Couscous</strong> – the iconic dish made with semolina, vegetables, and meat or chicken,  
+            <strong>Chakhchoukha</strong> – a dish made with torn flatbread pieces with sauce and meat,  
+            <strong>Rechta</strong> – fine noodles served with white or red sauce,  
+            <strong>Tajine</strong>, <strong>M’thouem</strong>, <strong>Chorba</strong>, and <strong>Harira</strong> during Ramadan,  
+            <strong>Rfiss</strong> or <strong>Mtloâ</strong> with honey,  
+            <strong>Tomine</strong> for festive occasions and weddings,  
+            <strong>Dolma</strong>, <strong>Bourak</strong>, <strong>Mesfouf</strong>, <strong>Aïch</strong>, <strong>Qdîd</strong> (dried meat), <strong>Mahshî</strong>, <strong>Kosra</strong>, <strong>Zfiti</strong> made from dough, <strong>Makloub el-Qbaili</strong> like Takfalt and Tikerbbabin.
+        </p>
+
+        <p style="line-height: 1.9; font-size: 18px;">
+            Algerian gastronomy also features sweet desserts and traditional drinks such as mint tea, Chorba, and fermented milk, often enjoyed during celebrations or family meals.
+        </p>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-top: 30px;">
+            <div style="aspect-ratio: 1/1; overflow: hidden; border-radius: 10px;">
+                <img src="/img/couscous.webp" alt="Traditional Algerian couscous dish" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div style="aspect-ratio: 1/1; overflow: hidden; border-radius: 10px;">
+                <img src="/img/chek.jpeg" alt="Chakhchoukha, traditional Algerian dish" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div style="aspect-ratio: 1/1; overflow: hidden; border-radius: 10px;">
+                <img src="/img/tajin.jpg" class="rotate-90" alt="Tajine dish cooked in a traditional pot" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div style="aspect-ratio: 1/1; overflow: hidden; border-radius: 10px;">
+                <img src="/img/zefiti.jpeg" class="rotate-90" alt="Zfiti dish made from dough" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+        </div>
+    </section>
+</main>
+
+<section style="padding: 30px; background-color: #fff9f0; border-radius: 12px; margin-top: 40px;">
+  <h2 style="color: #b23c17; font-size: 28px; margin-bottom: 20px;">Traditional Algerian Sweets</h2>
+  <p style="line-height: 1.9; font-size: 18px;">
+    Traditional Algerian sweets are famous across the Arab world and North Africa. They are especially popular during festivals, religious celebrations, and Ramadan. Every region has its own unique specialties, from honey-based desserts to nut-filled pastries and sesame treats.
+  </p>
+  <p style="line-height: 1.9; font-size: 18px;">
+    The most popular Algerian sweets include:
+    <strong>Maqrrout</strong> – fried or baked semolina pastries,  
+    <strong>Baklawa</strong> – sweet Algerian pastry with layers of thin dough and nuts,  
+    <strong>Ghribiya</strong> – a crumbly buttery cookie,  
+    <strong>Kaa’k</strong>,  
+    <strong>Mahsheh</strong>,  
+    <strong>Tomine</strong> served during weddings,  
+    <strong>Sejjar</strong> and <strong>Sharab</strong>,  
+    <strong>Halwa Louz</strong> – almond-based sweet,  
+    <strong>Sabli</strong>, <strong>Madhlin</strong>, <strong>Qarioush</strong>,  
+    <strong>Zlabia</strong> – traditional fried dessert during Ramadan,  
+    <strong>Dîwoul Mahchi</strong>,  
+    <strong>Mtloâ</strong>, and <strong>Rfiss with honey</strong>.
+  </p>
+  <p style="line-height: 1.9; font-size: 18px;">
+    Algerian sweets are often served with traditional drinks like mint tea, buttermilk, coffee, or hot chocolate, adding to the rich culinary experience.
+  </p>
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-top: 30px;">
+    <div style="aspect-ratio: 1/1; overflow: hidden; border-radius: 10px;">
+      <img src="/img/maq.jpg" alt="Mqarrout Algerian sweet pastry" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <div style="aspect-ratio: 1/1; overflow: hidden; border-radius: 10px;">
+      <img src="/img/baqlawa.jpg" alt="Algerian Baklawa sweet dessert" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <div style="aspect-ratio: 1/1; overflow: hidden; border-radius: 10px;">
+      <img src="/img/zlabiya.jpg" class="rotate-90" alt="Zlabia fried Algerian sweet, traditional during Ramadan" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <div style="aspect-ratio: 1/1; overflow: hidden; border-radius: 10px;">
+      <img src="/img/ghribiya.jpg" alt="Ghribiya Algerian cookie" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+  </div>
+</section>
+
+<section style="padding: 30px; background-color: #f1fdf9; border-radius: 12px; margin-top: 40px;">
+  <h2 style="color: #1b8d68; font-size: 28px; margin-bottom: 20px;">Traditional Algerian Drinks</h2>
+  <p style="line-height: 1.9; font-size: 18px;">
+    Algerian traditional drinks are an essential part of the culinary culture. They complement meals, celebrations, and daily gatherings, offering refreshing and nourishing beverages to enjoy with family and friends.
+  </p>
+  <p style="line-height: 1.9; font-size: 18px;">
+    Popular traditional drinks include:
+    <strong>Algerian mint tea</strong> – served hot and sweet,  
+    <strong>Raib</strong> – fermented milk drink,  
+    <strong>Coffee</strong> – often spiced with cardamom,  
+    <strong>Various herbal infusions</strong> for relaxation,  
+    and many more beverages enjoyed during Ramadan or daily meals.
+  </p>
+  <p style="line-height: 1.9; font-size: 18px;">
+    These drinks are enjoyed throughout the day, from breakfast to dinner, and are often served alongside traditional Algerian pastries and sweets for a complete experience.
+  </p>
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-top: 30px;">
+    <div style="aspect-ratio: 1/1; overflow: hidden; border-radius: 10px;">
+      <img src="/img/chai.jpeg" alt="Algerian mint tea served hot" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <div style="aspect-ratio: 1/1; overflow: hidden; border-radius: 10px;">
+      <img src="/img/lben.jpg" alt="Raib fermented milk drink" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <div style="aspect-ratio: 1/1; overflow: hidden; border-radius: 10px;">
+      <img src="/img/qahwa.jpg" alt="Spiced Algerian coffee served with tea" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+  </div>
+</section>
+
+</main>
+
+  <button onclick="scrollToTop()" id="topBtn" title="العودة للأعلى">⬆</button>
+
+  <footer>
+    &copy; 2025 - DZtravelguide | All Rights Reserved
+  </footer>
+  <script>
+    const toggleBtn = document.getElementById("menu-toggle");
+    const nav = document.getElementById("main-nav");
+    toggleBtn.addEventListener("click", () => {
+      nav.classList.toggle("show");
+    });
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+
+<script>
+  const langBtn = document.getElementById('lang-switch');
+  const currentURL = window.location.pathname;
+
+  if(currentURL.includes("/fr/")) {
+      langBtn.textContent = "FR";
+      langBtn.href = "/food.html";       // العودة للعربية
+  } else if(currentURL.includes("/en/")) {
+      langBtn.textContent = "EN";
+      langBtn.href = "/fr/food.html";    // الانتقال للفرنسية
+  } else {
+      // العربية
+      langBtn.textContent = "AR";
+      langBtn.href = "/en/food.html";    // الانتقال للإنجليزية
+  }
+</script>
+</body>
+</html>
