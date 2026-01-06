@@ -1,82 +1,85 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset 
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
     <loc>https://dztravelguide.netlify.app/index.html</loc>
     <xhtml:link rel="alternate" hreflang="ar" href="https://dztravelguide.netlify.app/index.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dztravelguide.netlify.app/fr/index.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dztravelguide.netlify.app/en/index.html"/>
+    <lastmod>2026-01-06</lastmod>
   </url>
 
-
   <url>
-    <loc>https://dztravelguide.netlify.app/index.html</loc>
+    <loc>https://dztravelguide.netlify.app/wilaya.html</loc>
     <xhtml:link rel="alternate" hreflang="ar" href="https://dztravelguide.netlify.app/wilaya.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dztravelguide.netlify.app/fr/wilaya.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dztravelguide.netlify.app/en/wilaya.html"/>
+    <lastmod>2026-01-06</lastmod>
   </url>
 
-<url>
-    <loc>https://dztravelguide.netlify.app/index.html</loc>
+  <url>
+    <loc>https://dztravelguide.netlify.app/places.html</loc>
     <xhtml:link rel="alternate" hreflang="ar" href="https://dztravelguide.netlify.app/places.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dztravelguide.netlify.app/fr/places.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dztravelguide.netlify.app/en/places.html"/>
+    <lastmod>2026-01-06</lastmod>
   </url>
 
- <url>
-    <loc>https://dztravelguide.netlify.app/index.html</loc>
+  <url>
+    <loc>https://dztravelguide.netlify.app/activities.html</loc>
     <xhtml:link rel="alternate" hreflang="ar" href="https://dztravelguide.netlify.app/activities.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dztravelguide.netlify.app/fr/activities.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dztravelguide.netlify.app/en/activities.html"/>
+    <lastmod>2026-01-06</lastmod>
   </url>
 
-
-   <url>
-    <loc>https://dztravelguide.netlify.app/index.html</loc>
+  <url>
+    <loc>https://dztravelguide.netlify.app/nature.html</loc>
     <xhtml:link rel="alternate" hreflang="ar" href="https://dztravelguide.netlify.app/nature.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dztravelguide.netlify.app/fr/nature.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dztravelguide.netlify.app/en/nature.html"/>
+    <lastmod>2026-01-06</lastmod>
   </url>
 
   <url>
-    <loc>https://dztravelguide.netlify.app/index.html</loc>
+    <loc>https://dztravelguide.netlify.app/food.html</loc>
     <xhtml:link rel="alternate" hreflang="ar" href="https://dztravelguide.netlify.app/food.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dztravelguide.netlify.app/fr/food.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dztravelguide.netlify.app/en/food.html"/>
+    <lastmod>2026-01-06</lastmod>
   </url>
 
-
- <url>
-    <loc>https://dztravelguide.netlify.app/index.html</loc>
+  <url>
+    <loc>https://dztravelguide.netlify.app/culture.html</loc>
     <xhtml:link rel="alternate" hreflang="ar" href="https://dztravelguide.netlify.app/culture.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dztravelguide.netlify.app/fr/culture.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dztravelguide.netlify.app/en/culture.html"/>
+    <lastmod>2026-01-06</lastmod>
   </url>
 
-
   <url>
-    <loc>https://dztravelguide.netlify.app/index.html</loc>
+    <loc>https://dztravelguide.netlify.app/unesco.html</loc>
     <xhtml:link rel="alternate" hreflang="ar" href="https://dztravelguide.netlify.app/unesco.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dztravelguide.netlify.app/fr/unesco.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dztravelguide.netlify.app/en/unesco.html"/>
+    <lastmod>2026-01-06</lastmod>
   </url>
 
-   <url>
-    <loc>https://dztravelguide.netlify.app/index.html</loc>
+  <url>
+    <loc>https://dztravelguide.netlify.app/tips.html</loc>
     <xhtml:link rel="alternate" hreflang="ar" href="https://dztravelguide.netlify.app/tips.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dztravelguide.netlify.app/fr/tips.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dztravelguide.netlify.app/en/tips.html"/>
+    <lastmod>2026-01-06</lastmod>
   </url>
 
-   <url>
-    <loc>https://dztravelguide.netlify.app/index.html</loc>
+  <url>
+    <loc>https://dztravelguide.netlify.app/about.html</loc>
     <xhtml:link rel="alternate" hreflang="ar" href="https://dztravelguide.netlify.app/about.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dztravelguide.netlify.app/fr/about.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dztravelguide.netlify.app/en/about.html"/>
+    <lastmod>2026-01-06</lastmod>
   </url>
-
-  
 
 </urlset>
